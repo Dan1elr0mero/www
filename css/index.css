@@ -1,28 +1,30 @@
-body{
-    margin: 0%;
-}
-*{
+.{
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   border-width: 5px;
-    border-color: blue;
-    background-color: aquamarine;
+
 }
-p {
-    text-decoration: underline;
+main{
+  
+    flex-wrap: wrap;
+
+}
+
+header{
+    background-image: url(C:\Users\romer\OneDrive\Documentos\github\www\assests\backgroung.jpg);
+    background-color: #cccccc; 
+  height: 100px; 
+  width: 100%;
+  background-position: center; 
+  background-size: cover;
+  text-align: center;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: red;
+}
+div{
+    padding: 10px;
+    display: flex;
+  flex-wrap: nowrap;
 } 
-img{
-    border-radius: 40px;
-    border-color: black ;
-
-clear: both;
-}
-figcaption {
-text-align: center;
-
-}
-figure {
-   
-    ;
-    
-    }
