@@ -15,6 +15,7 @@ header{
 width: 100%;
   flex-wrap:nowrap;
   text-align: center;
+  height: 300px;
 }
 nav{
   width: 100%;
@@ -31,9 +32,13 @@ nav h1{
 main {
   width: 65%;
 }
+.main-mi-descricion{
+    text-align: justify;
+    padding: 30px;
+}
 .contenedor-foto{
 display: inline;
-width:auto; 
+width: 65%; 
 }
 .foto{
   width: 250px;;
@@ -45,10 +50,11 @@ width:auto;
 }
 .descripcion{
   display: inline;
-width: 2000px;
+width: auto;
 }
 
 footer{
   width: 100%;
   background-color: aquamarine;
+  height: 300px;
 }
