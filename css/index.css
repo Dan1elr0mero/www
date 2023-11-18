@@ -1,60 +1,52 @@
-*{
+* {
   box-sizing: border-box;
-  
-
 }
 
-
-body{
+body {
   display: flex;
   flex-wrap: wrap;
-  
-  
 }
-header{
-width: 100%;
-  flex-wrap:nowrap;
+header {
+  width: 100%;
+  flex-wrap: nowrap;
   text-align: center;
-  height: 300px;
+  height: 150px;
 }
-nav{
+nav {
   width: 100%;
   text-align: center;
   flex-wrap: nowrap;
-
- 
 }
-nav h1{
+nav h1 {
   display: inline;
   padding: 15px;
-
 }
 main {
   width: 65%;
 }
-.main-mi-descricion{
-    text-align: justify;
-    padding: 30px;
+.main-mi-descricion {
+  text-align: justify;
+  padding: 30px;
 }
-.contenedor-foto{
-display: inline;
-width: 65%; 
+.contenedor-foto {
+  display: inline;
+  width: 65%;
 }
-.foto{
-  width: 250px;;
+.foto {
+  width: 250px;
   display: inline;
 }
-.foto figcaption{
+.foto figcaption {
   width: 200px;
   display: inline;
 }
-.descripcion{
+.descripcion {
   display: inline;
-width: auto;
+  width: auto;
 }
 
-footer{
+footer {
   width: 100%;
   background-color: aquamarine;
-  height: 300px;
+  height: 100px;
 }
