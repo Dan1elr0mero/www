@@ -23,7 +23,12 @@ nav h1 {
 }
 main {
   width: 65%;
+  flex-direction: column;
 }
+aside {
+  flex-direction: column;
+}
+
 .main-mi-descricion {
   text-align: justify;
   padding: 30px;
