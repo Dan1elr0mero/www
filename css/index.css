@@ -1,7 +1,14 @@
 * {
   box-sizing: border-box;
+  /* border: 5px solid black; */
 }
-
+a:hover {
+  color: white;
+}
+a {
+  text-decoration: none;
+  font-size: xx-large;
+}
 body {
   display: flex;
   flex-wrap: wrap;
@@ -10,23 +17,31 @@ header {
   width: 100%;
   flex-wrap: nowrap;
   text-align: center;
-  height: 150px;
+  height: 100px;
+  background-color: #28c8a0;
+  text-decoration: ;
+}
+header.h1 {
 }
 nav {
   width: 100%;
   text-align: center;
   flex-wrap: nowrap;
+  background-color: #1464ff;
+  padding: ;
 }
 nav h1 {
   display: inline;
-  padding: 15px;
+  padding: 25px;
+  text-decoration: none;
+  text-decoration: white;
 }
 main {
-  width: 65%;
+  width: 100%;
   flex-direction: column;
-}
-aside {
-  flex-direction: column;
+  display: flex;
+
+  /* background-image: url(https://th.bing.com/th/id/OIP.riE_7cdrMbLEX1bDDyTN-QE8DF?rs=1&pid=ImgDetMain); */
 }
 
 .main-mi-descricion {
@@ -34,24 +49,52 @@ aside {
   padding: 30px;
 }
 .contenedor-foto {
-  display: inline;
-  width: 65%;
+  display: flex;
+  flex-direction: row;
+  height: max-content;
 }
+
 .foto {
-  width: 250px;
-  display: inline;
+  padding: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .foto figcaption {
-  width: 200px;
-  display: inline;
+}
+.decoracion-foto {
+  background-color: gray;
+
+  width: 900px;
+  height: 300px;
+  justify-content: center;
 }
 .descripcion {
   display: inline;
   width: auto;
 }
-
+.pasatiempo {
+  text-align: center;
+}
+.receta {
+  justify-content: center;
+}
+aside {
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
 footer {
   width: 100%;
-  background-color: aquamarine;
+  background-color: #1464ff;
   height: 100px;
+  justify-content: center;
+}
+iframe {
+  padding: 15px;
+}
+
+.mapa {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
